@@ -197,9 +197,6 @@
   .mt-\[15vh\] {
     margin-top: 15vh;
   }
-  .mb-20 {
-    margin-bottom: calc(var(--spacing) * 20);
-  }
   .mb-\[2vh\] {
     margin-bottom: 2vh;
   }
@@ -308,6 +305,9 @@
   .w-\[47\%\] {
     width: 47%;
   }
+  .w-\[50\%\] {
+    width: 50%;
+  }
   .w-\[55\%\] {
     width: 55%;
   }
@@ -323,14 +323,26 @@
   .w-\[78\%\] {
     width: 78%;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[82\%\] {
     width: 82%;
+  }
+  .w-\[82\] {
+    width: 82;
   }
   .w-\[90\%\] {
     width: 90%;
   }
+  .w-\[100\%\] {
+    width: 100%;
+  }
   .w-full {
     width: 100%;
+  }
+  .w-screen {
+    width: 100vw;
   }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -367,6 +379,9 @@
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
+  }
+  .gap-\[\%\] {
+    gap: %;
   }
   .gap-\[1vh\] {
     gap: 1vh;
@@ -459,20 +474,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .pt-3 {
-    padding-top: calc(var(--spacing) * 3);
-  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
-  }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
-  }
-  .pt-25 {
-    padding-top: calc(var(--spacing) * 25);
-  }
-  .pt-30 {
-    padding-top: calc(var(--spacing) * 30);
   }
   .pt-\[10vh\] {
     padding-top: 10vh;
