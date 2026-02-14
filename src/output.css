@@ -179,6 +179,18 @@
   }
 }
 @layer utilities {
+  .fixed {
+    position: fixed;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .z-10 {
+    z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
+  }
   .m-auto {
     margin: auto;
   }
@@ -293,6 +305,12 @@
   .w-\[45\%\] {
     width: 45%;
   }
+  .w-\[47\%\] {
+    width: 47%;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
   .w-\[55\%\] {
     width: 55%;
   }
@@ -365,6 +383,9 @@
   .gap-\[5\%\] {
     gap: 5%;
   }
+  .gap-\[5v\] {
+    gap: 5v;
+  }
   .gap-\[5vh\] {
     gap: 5vh;
   }
@@ -389,8 +410,14 @@
   .gap-\[12\%\] {
     gap: 12%;
   }
+  .gap-\[14vh\] {
+    gap: 14vh;
+  }
   .gap-\[15vh\] {
     gap: 15vh;
+  }
+  .gap-\[17vh\] {
+    gap: 17vh;
   }
   .gap-\[18vh\] {
     gap: 18vh;
@@ -398,8 +425,14 @@
   .gap-\[19vh\] {
     gap: 19vh;
   }
+  .gap-\[20vh\] {
+    gap: 20vh;
+  }
   .gap-\[30\%\] {
     gap: 30%;
+  }
+  .gap-\[vh\] {
+    gap: vh;
   }
   .gap-x-12 {
     column-gap: calc(var(--spacing) * 12);
@@ -438,14 +471,35 @@
       background-color: color-mix(in oklab, var(--color-red-300) 20%, transparent);
     }
   }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
   .pt-\[10vh\] {
     padding-top: 10vh;
   }
+  .pr-\[5vh\] {
+    padding-right: 5vh;
+  }
+  .pr-\[10vh\] {
+    padding-right: 10vh;
+  }
+  .pr-\[15vh\] {
+    padding-right: 15vh;
+  }
+  .pb-\[10vh\] {
+    padding-bottom: 10vh;
+  }
   .pb-\[20vh\] {
     padding-bottom: 20vh;
+  }
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
+  }
+  .pl-\[10vh\] {
+    padding-left: 10vh;
   }
   .text-2xl {
     font-size: var(--text-2xl);
